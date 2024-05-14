@@ -1,0 +1,36 @@
+#
+# If you have any questions about the plugin,
+# Write to me in ds: yellowknife.dev
+# Or in minecraft: YellowKnife
+#
+# My english is so bad ;((
+
+perms:
+  notify: "YellowKnifeNickBlocker.notify" # If the player/privilege has this right, then the player will receive notifications in the chat
+  bypass: "YellowKnifeNickBlocker.bypass" # If the player/privilege has this right, then the player will be able to log in from prohibited nicknames
+
+blocked: # If there is similar content in the player's nickname, then it kicks
+  - "Akrein"
+  - "WexCode"
+  - "gay"
+  - "gey"
+  - "gitler"
+  - "hitler"
+  - "eblan"
+  - "zalypa"
+  - "xyi"
+  - "xiy"
+  - "yebok"
+  - "pizda"
+  -
+reason: | # No comments
+  &r
+  &r &FDear&f: &5{player} &f have been noticed in your nickname
+  &r &5Forbidden characters&f, please come up with&5 another&F nickname
+  &r &1
+  &r &FIf you think it was &5 error&f, then please
+  &r &fWrite to our &5discord&f server: &5WRITE HERE YOU ARE SOCIAL
+  &r &2
+
+messages:
+  notify: "&5YellowKnife&f: &fA player with a nickname&f: &5{player} &fI tried to join in to the server"

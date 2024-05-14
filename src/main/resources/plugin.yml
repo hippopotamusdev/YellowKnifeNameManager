@@ -1,0 +1,6 @@
+name: YellowKnifeNameManager
+version: '1.0'
+authors: [ YellowKnife ]
+main: yellowknife.yellowknifenamemanager.YellowKnifeNameManager
+api-version: '1.20'
+description: Plugin NameManager.
